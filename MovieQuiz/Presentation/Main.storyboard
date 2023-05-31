@@ -118,7 +118,6 @@
                         </constraints>
                     </view>
                     <connections>
-                        <outlet property="Immage" destination="lNs-8c-SQO" id="l25-Kn-TE5"/>
                         <outlet property="counterLabel" destination="x3F-qO-qSB" id="J9n-Y4-szN"/>
                         <outlet property="imageView" destination="lNs-8c-SQO" id="u3F-GP-lRg"/>
                         <outlet property="textLabel" destination="PqK-c7-g21" id="0gX-AK-jR1"/>
