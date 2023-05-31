@@ -91,6 +91,10 @@ final class MovieQuizViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        let firstQuestion =
+        questions[currentQuestionIndex]
+        let vievModel = convert(model: firstQuestion)
+        show(quiz: vievModel)
     }
     
     private func convert(model: QuizQuestion) -> QuizStepViewModel {
