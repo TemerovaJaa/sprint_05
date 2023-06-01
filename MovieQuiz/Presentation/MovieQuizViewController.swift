@@ -88,7 +88,6 @@ final class MovieQuizViewController: UIViewController {
     private var correctAnswers = 0
     
     
-    
     override func viewDidLoad() {
         super.viewDidLoad()
         let firstQuestion =
