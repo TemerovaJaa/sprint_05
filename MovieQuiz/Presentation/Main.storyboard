@@ -53,7 +53,7 @@
                                             <constraint firstAttribute="width" secondItem="lNs-8c-SQO" secondAttribute="height" multiplier="2:3" id="KHX-aZ-OkO"/>
                                         </constraints>
                                         <userDefinedRuntimeAttributes>
-                                            <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius ">
+                                            <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
                                                 <integer key="value" value="20"/>
                                             </userDefinedRuntimeAttribute>
                                         </userDefinedRuntimeAttributes>
