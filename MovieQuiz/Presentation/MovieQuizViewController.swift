@@ -112,6 +112,10 @@ final class MovieQuizViewController: UIViewController {
         DispatchQueue.main.asyncAfter(deadline: .now() + 1.0) {
             self.showNextQuestionOrResults()
         }
+        
+        if isCorrect {
+            correctAnswers += 1
+        }
     }
     private func show(quiz step: QuizStepViewModel) {
       imageView.image = step.image
