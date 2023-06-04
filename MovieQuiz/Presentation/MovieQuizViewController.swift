@@ -156,7 +156,7 @@ final class MovieQuizViewController: UIViewController {
             currentQuestionIndex += 1
             let nextQuestion = questions[currentQuestionIndex]
             let viewModel = convert(model: nextQuestion)
-            imageView.layer.borderColor = UIColor.white.cgColor
+            imageView.layer.borderColor = UIColor.clear.cgColor
             show(quiz: viewModel)
         }
     }
