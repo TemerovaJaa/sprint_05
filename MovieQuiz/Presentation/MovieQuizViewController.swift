@@ -112,11 +112,13 @@ final class MovieQuizViewController: UIViewController {
         DispatchQueue.main.asyncAfter(deadline: .now() + 1.0) {
             self.showNextQuestionOrResults()
         }
-        
+    
         if isCorrect {
             correctAnswers += 1
         }
     }
+    
+    
     private func show(quiz step: QuizStepViewModel) {
       imageView.image = step.image
       textLabel.text = step.question
@@ -154,7 +156,7 @@ final class MovieQuizViewController: UIViewController {
             currentQuestionIndex += 1
             let nextQuestion = questions[currentQuestionIndex]
             let viewModel = convert(model: nextQuestion)
-            
+            imageView.layer.borderColor = UIColor.white.cgColor
             show(quiz: viewModel)
         }
     }
